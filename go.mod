@@ -55,7 +55,6 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/oklog/run v1.1.0 // indirect
-	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/vincent-petithory/dataurl v1.0.0 // indirect
@@ -83,3 +82,5 @@ replace golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce => github.com/dma
 go 1.18
 
 replace github.com/community-terraform-providers/terraform-provider-ignition/v2 => github.com/dmacvicar/terraform-provider-ignition/v2 v2.1.3-0.20210701165004-13acf61ca184
+
+replace libvirt.org/go/libvirtxml => github.com/malt3/libvirt-go-xml-module v0.0.0-20230220114540-a30e01695a1d
